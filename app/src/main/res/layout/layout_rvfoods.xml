@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/momos"
+        android:scaleType="fitXY"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/foodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img1"
+        android:textSize="25dp"
+        android:text="Momo"/>
+    <TextView
+        android:id="@+id/foodcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@+id/foodname"
+        android:textSize="25dp"
+        android:text="Buff"/>
+    <TextView
+        android:id="@+id/foodrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_below="@+id/foodcat"
+        android:textSize="25dp"
+        android:text="Rs. 180"/>
+
+
+
+</RelativeLayout>
