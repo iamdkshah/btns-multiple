@@ -33,7 +33,7 @@
         android:layout_toRightOf="@+id/img1"
         android:layout_below="@+id/foodcat"
         android:textSize="25dp"
-        android:text="Rs. 180"/>
+        android:text="Rs. 200"/>
 
 
 
